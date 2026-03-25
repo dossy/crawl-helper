@@ -1458,6 +1458,8 @@ function parseBrand(s) {
         return "freeze";
     else if (s.includes("entangling"))
         return "entangle";
+    else if (s.includes("sundering"))
+        return "sunder";
 
     if (s.match('crushing|chopping|piercing|slashing|slicing|crush|chop|pierce|slash|slice|velocity|vorpal')) {
         return "vorpal";
